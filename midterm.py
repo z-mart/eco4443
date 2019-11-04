@@ -27,3 +27,6 @@ pool = DataFrame(data.pool)
 cbd_dist = DataFrame(data.cbd_dist)
 x_coord = DataFrame(data.x_coord)
 y_coord = DataFrame(data.y_coord)
+
+data.price = data.price/1000
+
